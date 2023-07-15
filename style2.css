@@ -1,0 +1,30 @@
+*{
+    padding:0;
+    margin:0;
+    text-decoration: none;
+    /* list-style: none; */
+    box-sizing:border-box;
+}
+body{
+    font-family:montserrat;
+}
+
+.fg{
+    margin-left:169px ;
+    font-size: 24px;
+    outline: none;
+    background-color: white;
+}
+.fg:hover{
+    cursor: pointer;
+    background-color: rgb(54, 117, 172);
+    color:white;
+    border-bottom: none;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    font-size: 0.5s;
+    
+}
+
+   

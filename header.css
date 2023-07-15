@@ -1,0 +1,91 @@
+*{
+    text-decoration: none;
+}
+#menu-bar {
+    background-color: rgb(94, 187, 218);
+    padding:10px;
+    width:100%;
+    height:90px;
+}
+#menu-bar ul{
+    
+    float:right;
+    margin-right:10px;
+}
+#menu-bar ul li{
+    list-style: none;
+    display: inline-block;
+    line-height:80px;
+    margin:0 3px;
+    margin-left:7px;
+ 
+    
+}
+#menu-bar ul li a{
+    color:white;
+    font-size: 0.6rem;
+     border-radius: 0px; 
+    text-transform:uppercase;
+    padding: 4px;
+   font-weight: bold;
+
+    
+}
+#menu-bar ul li a:hover{
+    cursor:pointer;
+    background-color: black;
+}
+
+    
+    
+
+#ghr1{
+    font-size: 30px;
+    color:white;
+    float:right;
+    line-height:80px;
+    margin-right: 40px;
+    cursor:pointer;
+    display: none;
+}
+@media(max-width:1000px){
+    label.logo{
+        font-size: 30px;
+        padding-left:50px;
+    }
+    #menu-bar ul li a{
+        font-size: 16px;
+    }
+}
+@media(max-width:958px){
+    #ghr1{
+        display:block;
+    }
+    ul{
+        position:fixed;
+        width:100%;
+        height:100vh;
+        background-color:rgb(221, 178, 178);
+        top:80px;
+        left:-100%;
+        text-align: center;
+        transition: all .5s;
+        
+}
+#menu-bar ul li{
+    display: block;
+    margin:50px 0;
+    line-height: 20px;
+}
+#menu-bar ul li a{
+    font-size: 10px;
+}
+a:hover,a.active1{
+    background: none;
+    color:white;
+   
+}
+#ghr1 ~ ul{
+    left:0;
+}
+}
